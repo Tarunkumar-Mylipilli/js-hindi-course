@@ -54,7 +54,7 @@ const myObject = {
     name : 'Anusha'
 }
 
-for (const [key , value] of myObject) {   //  this type of objects are not use for ieration
+for (const [key , value] of myObject) {   //   for of loop this type of objects are not use for ieration
     console.log(key, ':-', value)
     
 }
